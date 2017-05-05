@@ -15,6 +15,8 @@ composer require alshabalin/docx-template
 
 require 'vendor/autoload.php';
 
+use Alshabalin\DocxTemplate\DocxTemplate as DocxTemplate;
+
 $data = [
   'key' => 'value',
   'name' => 'John',
