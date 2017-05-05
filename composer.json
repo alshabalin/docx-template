@@ -1,0 +1,21 @@
+{
+    "name": "alshabalin/docx-template",
+    "description": "Docx Template",
+    "keywords": ["docx", "template"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Shabalin",
+            "email": "dev@alshabalin.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-zip": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alshabalin\\DocxTemplate\\": "src/"
+        }
+    }
+}
